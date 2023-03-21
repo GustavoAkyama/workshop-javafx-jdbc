@@ -4,7 +4,6 @@ import com.example.workshopjavafxjdbc.model.entities.Department;
 import com.example.workshopjavafxjdbc.model.entities.Seller;
 
 import java.util.List;
-import java.sql.Statement;
 
 public interface SellerDao {
 

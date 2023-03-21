@@ -1,10 +1,10 @@
 package com.example.workshopjavafxjdbc.gui.util;
 
-import java.util.Optional;
-
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.ButtonType;
+
+import java.util.Optional;
 
 public class Alerts {
 

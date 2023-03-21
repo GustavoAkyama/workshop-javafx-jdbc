@@ -2,7 +2,6 @@ package com.example.workshopjavafxjdbc.model.entities;
 
 import java.io.Serializable;
 import java.util.Objects;
-import java.sql.Statement;
 
 public class Department implements Serializable {
 

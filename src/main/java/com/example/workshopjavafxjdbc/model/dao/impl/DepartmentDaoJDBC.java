@@ -8,11 +8,10 @@ import com.example.workshopjavafxjdbc.model.entities.Department;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.sql.Statement;
 
 public class DepartmentDaoJDBC implements DepartmentDao {
 
-    private Connection conn;
+    private final Connection conn;
 
     public DepartmentDaoJDBC(Connection conn) {
         this.conn = conn;

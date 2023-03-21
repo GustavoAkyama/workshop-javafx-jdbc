@@ -3,13 +3,12 @@ package com.example.workshopjavafxjdbc.model.services;
 import com.example.workshopjavafxjdbc.model.dao.DaoFactory;
 import com.example.workshopjavafxjdbc.model.dao.DepartmentDao;
 import com.example.workshopjavafxjdbc.model.entities.Department;
-import java.sql.Statement;
 
 import java.util.List;
 
 public class DepartmentService {
 
-    private DepartmentDao dao = DaoFactory.createDepartmentDao();
+    private final DepartmentDao dao = DaoFactory.createDepartmentDao();
 
     public List<Department> findAll(){
 

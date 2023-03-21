@@ -3,7 +3,6 @@ package com.example.workshopjavafxjdbc.model.entities;
 import java.io.Serializable;
 import java.util.Date;
 import java.util.Objects;
-import java.sql.Statement;
 
 public class Seller implements Serializable {
 
