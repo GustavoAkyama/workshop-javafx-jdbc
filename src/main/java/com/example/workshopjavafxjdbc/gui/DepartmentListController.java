@@ -1,6 +1,6 @@
 package com.example.workshopjavafxjdbc.gui;
 
-
+import java.sql.Statement;
 import com.example.workshopjavafxjdbc.Main;
 import com.example.workshopjavafxjdbc.model.entities.Department;
 import com.example.workshopjavafxjdbc.model.services.DepartmentService;

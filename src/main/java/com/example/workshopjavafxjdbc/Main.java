@@ -1,11 +1,12 @@
 package com.example.workshopjavafxjdbc;
-
+import java.sql.Statement;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.ScrollPane;
 import javafx.stage.Stage;
+import java.sql.Statement;
 
 import java.io.IOException;
 
